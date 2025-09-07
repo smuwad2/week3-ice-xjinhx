@@ -13,32 +13,32 @@
     <div class="container mt-5">
         <form>
             <div class="row g-3">
-                <div class="box col-4">
+                <div class="col-md-6 col-lg-4 mb-3">
                     <label for="fullName" class="form-label">Full Name</label>
                     <input type="text" id="fullName" class="form-control"> <!--add form label and form control-->
                 </div>
 
                 <!-- Email -->
-                <div>
+                <div class="col-md-6 col-lg-4 mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" id="email" class="form-control">
                 </div>
 
                 <!-- Gender -->
-                <div>
-                    <label class="form-label">Gender</label>
-                    <div class="d-inline-block">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <label class="form-label d-block">Gender</label>
+                    <div class="form-check d-line-block me-3">
                         <input type="radio" name="gender" id="male" value="male" class="form-check-input">
                         <label for="male" class="form-check-label">Male</label>
                     </div>
-                    <div class="d-inline-block">
-                        <input type="radio" name="gender" id="female" value="female">
+                    <div class="form-check d-line-block">
+                        <input type="radio" name="gender" id="female" value="female" class="form-check-input">
                         <label for="female" class="form-check-label">Female</label>
                     </div>
                 </div>
 
                 <!-- Country -->
-                <div>
+                <div class="col-md-6 col-lg-4">
                     <label for="country" class="form-label">Country</label>
                     <select id="country" class="form-select">
                         <option selected>Select your country</option>
@@ -49,8 +49,8 @@
                 </div>
 
                 <!-- Subscribe -->
-                <div>
-                    <div class="mt-4">
+                <div class="col-lg-4">
+                    <div class="form-check mt-4">
                         <input type="checkbox" id="subscribe" class="form-check-input">
                         <label for="subscribe" class="form-check-label">
                             Subscribe to newsletter
@@ -65,7 +65,7 @@
                 </div>
 
                 <!-- Submit Button -->
-                <div class="col-12">
+                <div class="text-center">
                     <button type="submit" class="btn btn-primary mt-3">Submit</button>
                 </div>
             </div>
